@@ -18,7 +18,7 @@
           <td><%= group.description %></td>
           <td>
             <%= link_to("修改", edit_group_path(group), class: "btn btn-sm btn-default")%>
-            <%= link_to("删除", group_path(group),  class: "btn bnt-sm btn-default", method: :delete, data: { confirm: "确定要删除吗？"})%>
+            <%= link_to("删除", group_path(group),  class: "btn btn-sm btn-default", method: :delete, data: { confirm: "确定要删除吗？"})%>
           </td>
         </tr>
       <% end %>
